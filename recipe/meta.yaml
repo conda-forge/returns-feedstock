@@ -1,5 +1,5 @@
 {% set name = "returns" %}
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/returns-{{ version }}.tar.gz
-  sha256: ac717aaf1de89c87988c9c7cd57ce0bb06f726bd0f37c8915a53fa8ec8f800b7
+  sha256: 8cb7980454bbb2adfd43c44148d902fbd1a0f7288a797eaa6fad1fef7d5ec06c
 
 build:
   number: 0
