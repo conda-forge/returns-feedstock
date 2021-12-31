@@ -1,5 +1,5 @@
 {% set name = "returns" %}
-{% set version = "0.17.0" %}
+{% set version = "0.18.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/returns-{{ version }}.tar.gz
-  sha256: 8cb7980454bbb2adfd43c44148d902fbd1a0f7288a797eaa6fad1fef7d5ec06c
+  sha256: b43b84fca6ed5b2fe7f776a53ef83778c138b8c99494ab283a7f125b00945421
 
 build:
   number: 0
@@ -19,15 +19,14 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<4.0
+    - python >=3.6
   run:
-    - python >=3.6,<4.0
-    - typing-extensions >=3.7,<4.0
+    - python >=3.6
+    - typing_extensions >=4.0
 
 test:
   imports:
     - returns
-    - returns._internal
   commands:
     - pip check
   requires:
