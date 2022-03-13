@@ -5,7 +5,7 @@ Home: https://github.com/dry-python/returns
 
 Package license: BSD-2-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/returns-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/returns-feedstock/blob/main/LICENSE.txt)
 
 Summary: Make your functions return something meaningful, typed, and safe!
 
@@ -25,8 +25,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12732&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/returns-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12732&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/returns-feedstock?branchName=main">
       </a>
     </td>
   </tr>
