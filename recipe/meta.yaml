@@ -1,5 +1,5 @@
 {% set name = "returns" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/returns-{{ version }}.tar.gz
-  sha256: 4544bb67849c1ef1bbf7823759d433a773959e5b77a8fd06d01fef6d060f2ac5
+  sha256: 90d21b03bbd9a6dc7d44317ca36e8080d2428679c74f2f15ec386816d09c4ece
 
 build:
   number: 0
@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - poetry
-    - python >=3.6
+    - poetry-core >=1.0.0
+    - python >=3.7,<4.0
   run:
-    - python >=3.6
-    - typing_extensions >=4.0
+    - python >=3.7,<4.0
+    - typing_extensions >=4.0,<5.0
 
 test:
   imports:
