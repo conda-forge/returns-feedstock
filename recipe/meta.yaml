@@ -1,5 +1,6 @@
 {% set name = "returns" %}
 {% set version = "0.24.0" %}
+{% set python_min = "3.10" %}
 
 
 package:
