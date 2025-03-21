@@ -1,5 +1,5 @@
 {% set name = "returns" %}
-{% set version = "0.24.0" %}
+{% set version = "0.25.0" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/returns-{{ version }}.tar.gz
-  sha256: 735091cc798cac3f7cf8566b171922119f7796f2e49d6f65939f3e5a9c7c97f7
+  sha256: 1bf547311c0ade25435ce3bbe81642c325ea6b86beaf5d624cd410f0dee3ff50
 
 build:
   number: 0
