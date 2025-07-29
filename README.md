@@ -9,15 +9,14 @@ Package license: BSD-2-Clause
 
 Summary: Make your functions return something meaningful, typed, and safe!
 
-Documentation: https://returns.readthedocs.io
+Documentation: https://returns.readthedocs.io/
 
 Brings functional programming to Python land by providing a bunch of
- primitives to write declarative business logic. Also enforces better
- architecture with fully typed with annotations and checked with mypy.
- This package is PEP561 compatible and adds emulated Higher Kinded Types
- support. It also provides type-safe interfaces to create your own data-types
- with enforced laws, and has a bunch of helpers for better composition.
-
+primitives to write declarative business logic. Also enforces better
+architecture with fully typed with annotations and checked with mypy.
+This package is PEP561 compatible and adds emulated Higher Kinded Types
+support. It also provides type-safe interfaces to create your own data-types
+with enforced laws, and has a bunch of helpers for better composition.
 
 Current build status
 ====================
