@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: returns
-  version: 0.26.0
-  python_min: 3.10
+  version: "0.27.0"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/returns-${{ version }}.tar.gz
-  sha256: 180320e0f6e9ea9845330ccfc020f542330f05b7250941d9b9b7c00203fcc3da
+  sha256: f70a452dd81e6d024c97523683aba85076b15e00874e723afb23bcf3aa4ecea2
 
 build:
   number: 0
@@ -32,7 +32,9 @@ tests:
       imports:
         - returns
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Make your functions return something meaningful, typed, and safe!
