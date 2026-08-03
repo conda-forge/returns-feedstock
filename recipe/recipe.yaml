@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: returns
-  version: "0.28.0"
+  version: "0.29.0"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/returns-${{ version }}.tar.gz
-  sha256: 0eb059d81bfd8af64c86d9286cdf19c280f5a815ee719ff838a9c20b29ce4f84
+  sha256: fd9831594403229595dc705fee632a9be24a497df10aa3b9b72405d75d54e8ad
 
 build:
   number: 0
